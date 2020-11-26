@@ -8,6 +8,8 @@ const config = require('../../../config');
 // const qs = require('qs');
 const {CloudEvent, HTTPReceiver} = require('cloudevents-sdk')
 
+const receiver = new HTTPReceiver()
+
 function test(req, res) {
   console.log("--test api--")
 
