@@ -1,0 +1,26 @@
+{
+  "name": "cloud-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cloudevents": "^3.2.0",
+    "cloudevents-sdk": "^2.0.4",
+    "express": "~4.16.1",
+    "lodash": "^4.17.20",
+    "morgan": "~1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimhd95/cloudevents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimhd95/cloudevents/issues"
+  },
+  "homepage": "https://github.com/kimhd95/cloudevents#readme"
+}
