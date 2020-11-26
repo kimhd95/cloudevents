@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cross-env NODE_ENV=production nodemon cloud-event.js",
+    "dev": "cross-env NODE_ENV=dev nodemon cloud-event.js",
+    "local": "cross-env NODE_ENV=local nodemon cloud-event.js"
   },
   "dependencies": {
     "cloudevents": "^3.2.0",
